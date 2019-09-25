@@ -8,6 +8,7 @@ public class massa {
         float pes = Float.parseFloat(System.console().readLine());
         float imc = pes / altQuadrat;
         System.out.println("El teu index de massa corporal és " + imc + ".");
+       
         if (imc <= 18.5) {
             System.out.println("Ep! Estas molt prim");
         } else if (imc <= 24.9) {
